@@ -32,6 +32,7 @@ export const StyledSendBtn = styled.button`
     font-weight: bold;
     color: var(--text-color-dark);
 `
+
 export const StyledUl = styled.ul`
     background: var(--dark-color3);
     width: 100%;
@@ -45,6 +46,7 @@ export const StyledUl = styled.ul`
 `
 
 export const StyledLi = styled.li`
+    text-align: left;
     background-color: var(--dark-color2);
     border-radius: 0.5em;
     padding: 10px;
@@ -60,6 +62,11 @@ export const StyledBtn = styled.button`
     color: white;
     font-size: 12px;
     margin: 5px;
+
+    @media (max-width: 400px) {
+        padding: 7px;
+        margin: 5px;
+    }
 `
 
 export const StyledDelete = styled(StyledBtn)`
