@@ -1,11 +1,11 @@
 import React from 'react'
-import { StyledHeader } from './HeaderStyles'
+import { StyledTittle } from './HeaderStyles'
 
 const Header = () => {
   return (
-    <StyledHeader>
-      To do list
-    </StyledHeader>
+    <StyledTittle> 
+      To do list 
+    </StyledTittle>
   )
 }
 
